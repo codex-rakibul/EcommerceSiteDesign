@@ -20,5 +20,11 @@
     .color-selector input:checked + label{
         @apply ring-2  ring-primary;
     }
+    .input-box{
+        @apply w-full border border-gray-300 px-4 py-3 text-gray-600 rounded placeholder-gray-400 focus:border-primary focus:ring-0;
+    }
+    .order-box{
+        @apply text-gray-800 font-medium uppercase;
+    }
 
 }
